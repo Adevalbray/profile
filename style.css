@@ -1,0 +1,41 @@
+body {
+  color: grey;
+  background-color: rgb(230, 230, 230)
+}
+
+h1 {
+  color: red;
+  font-size: 50px;
+}
+    /* OR subtle border */
+a {
+      text-decoration: none;
+      color: #EB4A5F;
+    }
+
+#sco {
+  width : 60px;
+  border-radius: 50px;
+}
+
+.card {
+  width: 700px;
+  margin: 10px auto;
+  background: white ;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  padding: 10px;
+  word-spacing: 10px
+
+}
+
+.list-inline > li {
+  display: inline-block;
+}
